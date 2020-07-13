@@ -1,0 +1,84 @@
+body{
+background-color: #333;
+color: #fff;	
+	
+}
+html{
+	
+	scroll-behavior:smooth;
+}
+.navbar{
+	border-bottom: 2px solid red;
+	background-color:#000000db;
+}
+#one-home{
+	background-image: url('../img/me1.png');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 700px;
+}
+.dark-overlay{
+	min-height: 700px;
+	background: #000000c9;
+}
+.fa{
+	background: white;
+	color:#007bff;
+	padding: 4px;
+	font-size: 30px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.fac{
+	background:#333;
+	color:#fff;
+	font-size: 30px;
+	border-radius: 5px;
+	
+}
+.us{
+	font-size:21px;
+	cursor:pointer;
+	
+}
+.uis{
+	font-size:16px;
+	cursor:pointer;
+	
+}
+.uie{
+	font-size:17px;
+	cursor:pointer;
+	
+}
+.usi{
+	font-size:17px;
+	cursor:pointer;
+	
+}
+.uss{
+	border-radius:0;
+	border-radius:5px 0px 0px 5px;
+}
+.card-form{
+	background:#2196f3cc; 
+}
+.home-inner{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#lern-and-connect{
+	background: white;
+}
+
+img{
+	width:100%;
+	height:100%;
+}
+@media(max-width:768px){
+	#one-home h1{
+		font-size:45px;
+	}
+}
